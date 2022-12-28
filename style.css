@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+body {
+    width: 100%;
+    background: #e47f50;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+    background: transparent;
+    transition: all .35s ease;
+    background-color: rgb(184, 160, 129);
+    padding: 11px 11%;
+}
+
+img {
+  height: 20px;
+  justify-content: left;
+}
+
+.logo{
+    font-weight: 300;
+    font-size: 1rem;
+    color: blueviolet;
+}
+
+.cabeçalho-link{
+    display: flex;
+    gap: 1rem;
+}
+
+.cabeçalho-link a{
+    color: #111;
+    font-weight: 300;
+    transition: 0.3s;
+    font-size: 1rem;
+}
+
+.cabeçalho-link a:hover{
+    color: #dabcae;
+}
+
+.link-place a{
+    background-color: #c8815f;
+    border-radius: 20px;
+    color: rgb(119, 117, 150);
+   font-size: 1rem;
+   cursor: pointer;
+   transition: 0.3s;
+}
+
+.link-place:hover{
+    color: #000000;
+}
+
+article {
+    display:inline-block;
+    top: 0;
+    margin-top: 15%;
+}
+
+.links-pesquisas {
+    gap: 1rem;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.link-pp {
+    display: inline-block;
+    gap: 1rem;
+}
+
+.link-pp a {
+    color: rgba(252, 216, 201, 0.603);
+    font-weight: 300;
+    transition: 0.3s;
+}
+
+.link-pp a:hover {
+    color: #f85206;
+}
+
+.narrativo {
+    color:rgb(216, 58, 58);
+    gap: 1rem;
+    align-items: center;
+}
+
+.conteudo-commerce {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     padding: 4rem 0 0 ;
+}
+
+.texto-comercio {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.conteudo-cc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-historia-commerce {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.ecomerce {
+    height: 250px;
+    width: 50%;
+}
+
+#Contato{
+    display: flex;
+    gap: 5rem;
+    justify-content: space-around;
+    background-color: #111;
+    padding: 8rem;
+    margin-top: 5rem;
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+}
+
+.meio-contato h3{
+    color: rgb(223, 253, 141);
+    font-size: 23px;
+    margin-bottom: 1.6rem;
+}
+
+.meio-contato h5{
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.meio-contato li{
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.meio-contato li a{
+    display: block;
+    color: #555;
+    font-weight: 600;
+    transition: all .35s ease;
+}
+
+.last-text{
+    text-align: center;
+    background-color: #555;
+    color: rgb(208, 156, 238);
+}
+
+.CAP{
+    background-color: #c8815f;
+    padding: 1rem 3rem 1rem 3rem;
+    border: none;
+    border-radius: 5px;
+    color: rgb(252, 251, 255);
+   font-size: 1rem;
+   cursor: pointer;
+   transition: 0.3s;
+
+}
+
+.CAP a {
+    color: #fff;
+}
+
+.CAP:hover{
+      background-color: #111;
+      transform: scaleY(1.2);
+}
+
+.links-a{
+    background-color: #c8815f;
+    padding: 1rem 3rem 1rem 3rem;
+    border: none;
+    border-radius: 5px;
+    color: rgb(252, 251, 255);
+   font-size: 1rem;
+   cursor: pointer;
+   transition: 0.3s;
+
+}
+
+.links-a a {
+    color: #fff;
+}
+
+.links-a:hover{
+      background-color: #fff;
+      transform: scaleY(1.2);
+}
